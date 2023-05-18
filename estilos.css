@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* Estilo para el menú */
+nav {
+    background-color: #1060c9;
+    overflow: hidden;
+  }
+  
+  /* Estilo para los enlaces del menú */
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Estilo para el enlace activo del menú */
+  .active {
+    font-size: 26px;
+  }
+
+  .padd{
+    padding: 8px 16px;
+    padding-left: 418px;
+
+  }
+
+  #contenedor {
+    background-image: url('/img/800px-Galería_de_Arte_Nacional_de_Venezuela.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff; 
+    padding: 50px 0; 
+  }
+
+  .nosotros {
+    text-align: center;
+  }
+
+  .beneficios{
+    text-align: center;
+    background-color: #1060c9;
+    color: white;
+    padding-top: 10px;
+  }
+
+.imgnosotros {
+    display: flex;
+    align-items: center;
+    padding: 10px; 
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+.imgbeneficios{
+    display:block; 
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .grid-item {
+    background-color: #1060c9;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    align-items: center;
+  }
+
+  .horario{
+    text-align: center;
+  }
+
+  .imghorario{
+    display: flex;
+    align-items: center;
+    padding: 10px; 
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .preg{
+    text-align: center;
+    background-color: #1060c9;
+    color: white;
+    padding-top: 10px;
+  }
+
+  .preg2{
+    text-align:left;
+    background-color: #1060c9;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+  }
+
+  .pregsec{
+    background-color: #1060c9;
+  }
+
+  .interes{
+    text-align: center;
+  }
+
+  .piep{
+    background-color: #1060c9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+ 
